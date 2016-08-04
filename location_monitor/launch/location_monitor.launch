@@ -1,0 +1,8 @@
+<launch>
+    <node name="location_monitor" pkg="location_monitor" type="location_monitor_node.py" launch-prefix="xterm -e"/>
+    <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch" />
+    <!--<node name="gazebo" pkg="gazebo" type="gazebo" args="$()"/-->
+    <!--node name="turtlebot_teleop_keyboard"-->
+    <include file="$(find turtlebot_teleop)/launch/keyboard_teleop.launch" launch-prefix="xterm -e"/>
+
+</launch>
