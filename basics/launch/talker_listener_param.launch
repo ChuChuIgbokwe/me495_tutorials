@@ -1,0 +1,6 @@
+<launch>
+    <node name="talker_param" pkg="beginner_tutorials" type="talker_param.py" output="screen">
+        <param name="name"  value="Batman"/>
+    </node>
+    <node name="listener" pkg="beginner_tutorials" type="listener.py" output="screen" />
+</launch>

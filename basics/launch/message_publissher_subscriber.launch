@@ -1,0 +1,4 @@
+<launch>
+    <node name="message_publisher" pkg="beginner_tutorials" type="message_publisher" launch-prefix="xterm -e"/>
+    <node name="message_subscriber" pkg="beginner_tutorials" type="subscriber" launch-prefix="xterm -e"/>
+</launch>
