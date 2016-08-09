@@ -4,7 +4,7 @@
 
 import rospy
 import time, actionlib
-from beginner_tutorials.msg import TimerAction, TimerGoal, TimerResult
+from basics.msg import TimerAction, TimerGoal, TimerResult
 
 rospy.init_node('timer_action_client')
 client = actionlib.SimpleActionClient('timer',TimerAction)

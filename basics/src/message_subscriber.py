@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy
-from beginner_tutorials.msg import Complex
+from basics.msg import Complex
 
 def callback(msg):
 	print "Real:", msg.real

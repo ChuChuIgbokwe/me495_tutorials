@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-
+# -*- coding: utf-8 -*-
+#Created by Chukwunyere Igbokwe on July 27, 2016 by 2:23 PM
 import rospy
 import math
 from nav_msgs.msg import Odometry
@@ -37,7 +38,7 @@ class LandmarkMonitor(object):
 
 
 def main():
-	rospy.init_node('location_monitor')
+	rospy.init_node('location_monitor_node')
 	landmarks = []
 	landmarks.append(("Cube", 0.31, -0.99));
 	landmarks.append(("Dumpster", 0.11, -2.42));

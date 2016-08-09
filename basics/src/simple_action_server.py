@@ -4,7 +4,7 @@
 
 import rospy
 import time, actionlib
-from beginner_tutorials.msg import TimerAction, TimerGoal, TimerResult
+from basics.msg import TimerAction, TimerGoal, TimerResult
 
 def do_timer(goal): #goal is of type TimerGoal which corresponds to the goal part of timer.action
     start_time = time.time()
