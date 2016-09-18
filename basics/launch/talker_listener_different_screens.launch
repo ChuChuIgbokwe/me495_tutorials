@@ -1,4 +1,4 @@
 <launch>
-    <node name="talker" pkg="beginner_tutorials" type="talker.py" launch-prefix="xterm -e"/>
-    <node name="listener" pkg="beginner_tutorials" type="listener.py" launch-prefix="xterm -e"/>
+    <node name="talker" pkg="basics" type="talker.py" launch-prefix="xterm -e"/>
+    <node name="listener" pkg="basics" type="listener.py" launch-prefix="xterm -e"/>
 </launch>

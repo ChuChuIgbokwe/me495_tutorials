@@ -1,0 +1,4 @@
+<launch>
+    <node name="timer_action_server" pkg="basics" type="simple_action_server.py" output="screen"/>
+    <node name="timer_action_client" pkg="basics" type="simple_action_client.py" output="screen"/>
+</launch>

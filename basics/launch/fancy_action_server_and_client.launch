@@ -1,4 +1,4 @@
 <launch>
-    <node name="timer_action_server" pkg="beginner_tutorials" type="fancy_action_server.py" launch-prefix="xterm -e"/>
-    <node name="timer_action_client" pkg="beginner_tutorials" type="fancy_action_client.py" launch-prefix="xterm -e"/>
+    <node name="timer_action_server" pkg="basics" type="fancy_action_server.py" launch-prefix="xterm -e"/>
+    <node name="timer_action_client" pkg="basics" type="fancy_action_client.py" launch-prefix="xterm -e"/>
 </launch>

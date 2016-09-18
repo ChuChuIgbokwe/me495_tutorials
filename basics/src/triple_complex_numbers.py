@@ -21,6 +21,7 @@ if __name__=='__main__':
     rospy.init_node('tripler')
     pub = rospy.Publisher('tripled',Complex, queue_size=1)
     rospy.Subscriber('complex',Complex,callback)
+
     try:
         rospy.spin()
     except KeyboardInterrupt:
